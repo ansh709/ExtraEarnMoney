@@ -29,6 +29,7 @@
         padding: 10px;
         width: 100%;
         box-shadow: 0px -9px 9px 15px #80808000;
+        z-index: 99999;
     }
     .mySliderItems>ul {
         display: flex;
@@ -43,19 +44,31 @@
         display: inline-flex;
     }
     .slidItem>img {
-        height: 134px;
+        height: 175px;
         width: 319px;
         margin: 0px 6px;
         scroll-snap-align: start;
         border-radius: 18px;
     }
     section {
-        padding: 20px 0px;
+        padding: 9px 0px;
+        margin-bottom: 30px;
     }
-	.processItem>img{
-		width: 100%;
-		padding: 10px;
-		box-shadow: 0px 0px 6px 20px #80808026;
-		border-radius: 18px;
-	}
+    .processItem>img {
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0px 0px 6px 20px #8080800d;
+        border-radius: 18px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Josefin Sans', sans-serif!important;
+    }
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
 }
